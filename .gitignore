@@ -1,0 +1,6 @@
+# Editor files
+*.iml
+.idea
+
+# Build folder
+target/
