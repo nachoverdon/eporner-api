@@ -2,7 +2,7 @@ package com.drugif.ep.removed;
 
 import static com.drugif.ep.EpornerApi.API_URL;
 
-import com.drugif.ep.Format;
+import com.drugif.ep.properties.Format;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

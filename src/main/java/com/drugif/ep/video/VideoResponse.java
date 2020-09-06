@@ -1,6 +1,6 @@
 package com.drugif.ep.video;
 
-import com.drugif.ep.Thumbnail;
+import com.drugif.ep.thumbnail.Thumbnail;
 import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 

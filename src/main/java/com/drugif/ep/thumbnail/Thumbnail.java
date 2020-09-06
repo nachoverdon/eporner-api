@@ -1,4 +1,4 @@
-package com.drugif.ep;
+package com.drugif.ep.thumbnail;
 
 import lombok.Data;
 

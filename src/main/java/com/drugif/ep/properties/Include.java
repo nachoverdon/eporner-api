@@ -1,4 +1,4 @@
-package com.drugif.ep;
+package com.drugif.ep.properties;
 
 public enum Include {
   // Do not include type

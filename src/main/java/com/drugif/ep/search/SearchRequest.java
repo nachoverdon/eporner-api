@@ -2,9 +2,9 @@ package com.drugif.ep.search;
 
 import static com.drugif.ep.EpornerApi.API_URL;
 
-import com.drugif.ep.Include;
-import com.drugif.ep.Order;
-import com.drugif.ep.ThumbnailSize;
+import com.drugif.ep.properties.Include;
+import com.drugif.ep.properties.Order;
+import com.drugif.ep.thumbnail.ThumbnailSize;
 import lombok.Builder;
 import lombok.Data;
 

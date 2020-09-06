@@ -2,7 +2,7 @@ package com.drugif.ep.video;
 
 import static com.drugif.ep.EpornerApi.API_URL;
 
-import com.drugif.ep.ThumbnailSize;
+import com.drugif.ep.thumbnail.ThumbnailSize;
 import lombok.Builder;
 import lombok.Data;
 

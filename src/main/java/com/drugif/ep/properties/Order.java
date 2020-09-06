@@ -1,4 +1,4 @@
-package com.drugif.ep;
+package com.drugif.ep.properties;
 
 /**
  * How results should be sorted.

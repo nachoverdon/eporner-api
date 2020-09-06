@@ -21,7 +21,7 @@ public class Example {
           RemovedRequest removedRequest = new RemovedRequest(Format.txt);
           RemovedResponse removedResponse = removed(removedRequest);
 
-        } catch (IOException e) {
+        } catch (Exception e) {
 
           // Something went wrong :(
           e.printStackTrace();
@@ -34,3 +34,30 @@ public class Example {
 For more info, check the [Official Eporner API docs](https://www.eporner.com/api/v2/)
 
 Doesn't include support for CSV & RSS feeds. Yet?
+
+### Generating JavaDoc
+
+To generate the JavaDoc you need to use the following command:
+
+```
+mvn javadoc:javadoc
+```
+
+It will generate `target/site/apidocs/`. To navigate the docs, just open `index.html`.
+
+Please, try to generate the docs and fix any issues before committing your changes.
+
+### Style checking
+
+To check the style of the Java code you need to use the following command:
+
+```
+mvn checkstyle:check
+```
+
+Please, check the style of your code and fix any issues before committing your changes.
+
+### TODO:
+
+- [ ] Improve error messages:
+    - [ ] Distinguish between IOException, bad request data, bad response data...
