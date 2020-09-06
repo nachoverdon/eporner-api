@@ -1,6 +1,6 @@
 # Eporner API v2
 
-Unofficial Eporner API
+Unofficial Eporner API for Java 11
 
 ## Usage
 
